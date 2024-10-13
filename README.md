@@ -1,6 +1,6 @@
 # Домашнее задание к занятию «3.1. Docker»
-
 ## Задача №1 - PostgreSQL
+![image](https://github.com/user-attachments/assets/a6cd8872-30bb-4b92-94a9-ac17205e3d58)
 
 Вам необходимо подготовить приложение к тестированию на СУБД PostgreSQL (используйте образ 12-alpine, если он недоступен, то берите последний опубликованный на DockerHub). Возьмите собранный jar-файл `db-api.jar`, аналогично примеру на лекции положите рядом файл `application.properties`, но в строке:
 `jdbc:mysql://...` поменяйте `mysql` на `postgresql`.
